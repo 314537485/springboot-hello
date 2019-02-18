@@ -45,5 +45,16 @@
   </dependencies>
   <build>
 		<finalName>springboot-hello</finalName>
+		<plugins>
+		<plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <!--这里写上main方法所在类的路径-->
+                <!--<configuration>-->
+                    <!--com.kismet.p2p.APPConfig即mainClass-->
+                    <!--<mainClass>com.kismet.p2p.APPConfig</mainClass>-->
+                <!--</configuration>-->
+            </plugin>
+		</plugins>
   </build>
 </project>
